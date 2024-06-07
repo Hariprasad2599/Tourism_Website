@@ -1,0 +1,133 @@
+.App {
+  text-align: center;
+  color: rgb(255, 0, 0);
+  /* text-decoration: underline; */
+}
+.product-page nav ul {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+.product-page nav ul li {
+  display: inline; /* Display list items horizontally */
+  margin-right: 10px; /* Add spacing between buttons */
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+nav {
+  background-color: #f0f0f0; /* Grey background color */
+  padding: 10px; /* Add some padding for better appearance */
+  display: flex; /* Make the links appear in a row */
+  justify-content: center; /* Center the links horizontally */
+}
+.search-bar {
+  position: absolute; /* Set position to absolute */
+  top: 20px; /* Adjust top position */
+  right: 20px; /* Adjust right position */
+  width: 300px; /* Set width */
+  padding: 8px; /* Add padding */
+  border: 1px solid #ccc; /* Add border */
+  border-radius: 4px; /* Add border-radius */
+  font-size: 16px; /* Set font size */
+}
+/* Style for the links */
+nav a {
+  text-decoration: none; /* Remove underline */
+  color: black; /* Set link color */
+  margin: 0 10px; /* Add space between links */
+}
+.compressed-logo {
+  max-width: 100px; /* Set maximum width */
+  height: 100px; /* Maintain aspect ratio */
+  cursor: pointer;
+  border-radius: 15px;
+  margin-top: 0;
+}
+.contact{
+  position: fixed;
+  bottom: 10px;
+  right: 10px; 
+  z-index: 9999; 
+  background-color: #ffffff; 
+  padding: 10px; 
+  border: 1px solid #cccccc; 
+  background: transparent;
+  border-radius: 20px;
+}
+/* .contact-info{
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 20px;
+} */
+.header {
+  display: flex; /* Use flexbox */
+  align-items: center; /* Align items vertically */
+  margin-top: 20px;
+}
+
+.contact-info {
+  margin-left: 20px ; /* Pushes the contact info to the far left */
+  margin-top: 30px;
+
+}
+
+.search-bar {
+  margin-left: auto; /* Pushes the search bar to the far right */
+  margin-top: 20px;
+}
+.news-card {
+  transition: transform 0.3s ease-in-out;
+}
+
+.news-card:hover {
+  transform: translateY(-5px);
+}
+.navbar {
+  background-color: #343a40; /* Background color */
+  height: 100px;
+}
+
+.navbar-brand {
+  color: #ffffff; /* Text color */
+  font-size: 1.5rem; /* Font size */
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff; /* Text color */
+  font-size: 1rem; /* Font size */
+  margin-right: 10px; /* Margin between nav links */
+}
+
+.navbar-toggler-icon {
+  color: #ffffff; /* Toggler icon color */
+}
+
+.navbar-nav .nav-link.active {
+  font-weight: bold; /* Active link font weight */
+}
+nav {
+  height: 40px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black; /* Default color */
+  transition: transform 0.3s ease; /* Smooth transition */
+  font-family: Arial, sans-serif; /* Change font style */
+}
+
+nav a:hover {
+  color: blue; /* Color on hover */
+  transform: scale(1.2); /* Zoom effect on hover */
+}
+
+
